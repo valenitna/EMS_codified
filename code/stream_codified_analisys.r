@@ -1,4 +1,7 @@
 
+#Author of this R-code is Alfonso Crisci, by CNR Ibimet. Contact: email: a.crisci@ibimet.cnr.it   
+
+
 options(java.parameters = "-Xmx1024m")
 
 library(XLConnect)
