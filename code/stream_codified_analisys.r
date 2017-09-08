@@ -1,6 +1,10 @@
 
-#Author of this R-code is Alfonso Crisci, by CNR Ibimet. Contact: email: a.crisci@ibimet.cnr.it   
+# Author of this R-code is Alfonso Crisci, by CNR Ibimet. Contact: email: a.crisci@ibimet.cnr.it   
+# to install R rTwChannel package install devtools package from CRAN and after 
 
+
+# devtools::install_github("alfcrisci/rTwChannel")
+# to prevent any issues in corpora analisys upate the required package tm and qdap at last version.
 
 options(java.parameters = "-Xmx1024m")
 
@@ -9,10 +13,6 @@ library(rTwChannel)
 library(igraph)
 library(networkD3)
 library(htmlwidgets)
-
-
-
-source("main_data_channel.r")
 
 
 date_events=readRDS("date_events.rds")
